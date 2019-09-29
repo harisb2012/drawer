@@ -16,7 +16,7 @@
     "typescript": "tsc --noEmit",
     "example": "yarn --cwd example",
     "bootstrap": "yarn example && yarn",
-    "prepare": "bob build",
+    "prepare": "echo 'No need to prepare anything, we will use it directly'",
     "release": "release-it"
   },
   "publishConfig": {
